@@ -1,0 +1,26 @@
+[project]
+name = "spatial-bpl"
+version = "0.1.0"
+description = "Spatial Bayesian Prompt Learning for fine-grained visual classification with CLIP"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "ftfy",
+    "regex",
+    "tqdm",
+    "matplotlib",
+    "clip @ git+https://github.com/openai/CLIP.git",
+]
+
+[project.scripts]
+spatial-bpl = "run_spatial_bpl:main"
+
+[tool.uv]
+dev-dependencies = [
+    "jupyter",
+    "ipywidgets",
+    "numpy",
+]

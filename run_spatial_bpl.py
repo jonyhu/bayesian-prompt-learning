@@ -2,9 +2,9 @@
 Standalone training script for Spatial-BPL on FGVC-Aircraft.
 
 Usage:
-    python run_spatial_bpl.py [--epochs 15] [--shots 16] [--n_samples 10]
-                              [--batch_size 4] [--no_visual_adapter]
-                              [--no_spatial_attention] [--seed 2]
+    uv run python run_spatial_bpl.py [--epochs 15] [--shots 16] [--n_samples 10]
+                                     [--batch_size 4] [--no_visual_adapter]
+                                     [--no_spatial_attention] [--seed 2]
 
 Results are printed to stdout and saved to results.json.
 """
