@@ -2,9 +2,9 @@
 
 This repo accompanies my course project report on Bayesian Prompt Learning (BPL), a variational formulation of prompt learning for CLIP that learns a distribution over prompt residuals and averages predictions over samples at inference.
 
-- [Slides](https://docs.google.com/presentation/d/1kT5nuKomYVeE4T044rn1tNPeHtqSSXZqMH2W3dD0vug/edit?usp=sharing) — overview
-- [Colab](https://colab.research.google.com/drive/1nrrBTpGJnvLrMQlV8w7rJulOUggLuiG0?usp=sharing) — reproduce
-- [Report](./report/report.pdf) — full write-up (PDF)
+- [Slides](https://docs.google.com/presentation/d/1kT5nuKomYVeE4T044rn1tNPeHtqSSXZqMH2W3dD0vug/edit?usp=sharing)
+- [Colab](https://colab.research.google.com/drive/1nrrBTpGJnvLrMQlV8w7rJulOUggLuiG0?usp=sharing)
+- [Report](./report/report.pdf)
 
 ---
 
